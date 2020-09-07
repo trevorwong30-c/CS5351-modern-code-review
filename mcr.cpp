@@ -1,3 +1,5 @@
+namespace std;
+#include <iostream>
 
 bool isWin(char game[3][3]){ 
 
@@ -51,21 +53,21 @@ if (turn == false)
 
 cout << "Player 1: "; 
 
-Else 
+else 
 
 cout << "Player 2: "; 
 
-cout << "Which cell to mark? i:[1..3], j:[1..3]: "; 
+cout << "Enter the row number (i) and col number (j) you want to mark (***the format is important): "; 
 
 cin >> i >> j; 
 
 if (turn == false) 
 
-game[i][j] = 'X'; 
+game[i][j] = player1; 
 
 else  
 
-game[i][j] = 'O'; 
+game[i][j] = player2; 
 
 if (isWin(game)){ 
 
