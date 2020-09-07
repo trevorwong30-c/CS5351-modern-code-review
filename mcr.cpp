@@ -57,7 +57,7 @@ else
 
 cout << "Player 2: "; 
 
-cout << "Enter the row number (i) and col number (j) you want to mark: "; 
+cout << "Enter the row number (i) and col number (j) you want to mark (***the format is important): "; 
 
 cin >> i >> j; 
 
